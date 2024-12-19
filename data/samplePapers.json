@@ -1,0 +1,27 @@
+[
+    {
+      "subject": "Hindi",
+      "url": "/samplepaper/hindi.pdf"
+    },
+    {
+      "subject": "English",
+      "url": "/samplepaper/english.pdf"
+    },
+    {
+      "subject": "Math",
+      "url": "/samplepaper/math.pdf"
+    },
+    {
+      "subject": "Chemistry",
+      "url": "/samplepaper/chemistry.pdf"
+    },
+    {
+      "subject": "Physics",
+      "url": "/samplepaper/physics.pdf"
+    },
+    {
+      "subject": "Biology",
+      "url": "/samplepaper/biology.pdf"
+    }
+  ]
+  
