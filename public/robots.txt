@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://samplepaper.arbab.shop/
+
+# Sitemaps
+Sitemap: https://samplepaper.arbab.shop/sitemap.xml
