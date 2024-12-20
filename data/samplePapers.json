@@ -1,27 +1,34 @@
 [
     {
       "subject": "Hindi",
-      "url": "/samplepaper/hindi.pdf"
+      "url": "/samplepaper/hindi.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625028/samplepaper/lkxvh1khy3gusjvq2u8x.pdf"
     },
     {
       "subject": "English",
-      "url": "/samplepaper/english.pdf"
+      "url": "/samplepaper/english.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625028/samplepaper/u5put1mpx8eezmwunxgr.pdf"
     },
     {
       "subject": "Math",
-      "url": "/samplepaper/math.pdf"
+      "url": "/samplepaper/math.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625029/samplepaper/p250mifm6oxg9z3lwseu.pdf"
+
     },
     {
       "subject": "Chemistry",
-      "url": "/samplepaper/chemistry.pdf"
+      "url": "/samplepaper/chemistry.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625029/samplepaper/pfvb9ufrsqm2u7pu0xky.pdf"
     },
     {
       "subject": "Physics",
-      "url": "/samplepaper/physics.pdf"
+      "url": "/samplepaper/physics.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625029/samplepaper/q5oyzxnigswmm6piywju.pdf"
     },
     {
       "subject": "Biology",
-      "url": "/samplepaper/biology.pdf"
+      "url": "/samplepaper/biology.pdf",
+      "downloadurl":"https://res.cloudinary.com/duns099gs/image/upload/v1734625029/samplepaper/e8dgrkrxbsrucvmvzkzz.pdf"
     }
   ]
   

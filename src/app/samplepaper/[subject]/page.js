@@ -1,18 +1,20 @@
 "use client";
 import Link from "next/link";
 import { useParams } from "next/navigation";
-import React from "react";
-import Head from "next/head";
-<Head>
-  <title>Sample Papers for Class 12 </title>
-  <meta
-    name="description"
-    content="Download and prepare with the latest UP Board 2024-2025 Class 12 sample papers for all subjects."
-  />
-</Head>;
+import React, { useState } from "react";
+
+import data from "../../../../data/samplePapers.json";
 
 const Page = () => {
-  const { subject } = useParams();
+  const prams = useParams();
+  const subject = JSON.stringify(prams.subject).split(".")[0];
+  let url;
+  let filteredData = data.forEach((item) => {
+    if ('"' + item.subject.toLocaleLowerCase() == subject) {
+      url = item.downloadurl;
+    }
+  });
+  console.log(url);
   return (
     <section className="py-6 h-screen flex justify-center items-center dark:bg-gray-100 text-gray-50 dark:text-gray-900">
       <div className="container mx-auto flex flex-col items-center justify-center p-4 space-y-8 md:p-10 lg:space-y-0 lg:flex-row lg:justify-between">
@@ -39,7 +41,8 @@ const Page = () => {
 
         <a
           className="px-8 hover:translate-x-[1px] hover:translate-y-[1px] dark:hover:shadow-lg transition-all ease-in shadow-none dark:hover:shadow-white shadow-purple-300 py-3 text-lg font-semibold rounded bg-violet-400 dark:bg-violet-600 text-gray-900 dark:text-gray-50"
-          href={`../../../../public/sample-paper/${subject}.pdf`}
+          href={url}
+          target="_blank"
           download
         >
           download
